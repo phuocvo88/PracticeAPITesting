@@ -1,0 +1,10 @@
+D:\02 THIEU\Training\Phuoc\OpenWeatherAPI\OpenWeatherAPI\bin\Debug\OpenWeatherAPI.exe.config
+D:\02 THIEU\Training\Phuoc\OpenWeatherAPI\OpenWeatherAPI\bin\Debug\OpenWeatherAPI.exe
+D:\02 THIEU\Training\Phuoc\OpenWeatherAPI\OpenWeatherAPI\bin\Debug\OpenWeatherAPI.pdb
+D:\02 THIEU\Training\Phuoc\OpenWeatherAPI\OpenWeatherAPI\obj\Debug\OpenWeatherAPI.csprojAssemblyReference.cache
+D:\02 THIEU\Training\Phuoc\OpenWeatherAPI\OpenWeatherAPI\obj\Debug\OpenWeatherAPI.csproj.CoreCompileInputs.cache
+D:\02 THIEU\Training\Phuoc\OpenWeatherAPI\OpenWeatherAPI\obj\Debug\OpenWeatherAPI.exe
+D:\02 THIEU\Training\Phuoc\OpenWeatherAPI\OpenWeatherAPI\obj\Debug\OpenWeatherAPI.pdb
+D:\02 THIEU\Training\Phuoc\OpenWeatherAPI\OpenWeatherAPI\bin\Debug\Newtonsoft.Json.dll
+D:\02 THIEU\Training\Phuoc\OpenWeatherAPI\OpenWeatherAPI\bin\Debug\Newtonsoft.Json.xml
+D:\02 THIEU\Training\Phuoc\OpenWeatherAPI\OpenWeatherAPI\obj\Debug\OpenWeatherAPI.csproj.CopyComplete
