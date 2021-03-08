@@ -8,3 +8,12 @@ D:\Training\Phuoc\AutomationUITestingFramework\obj\Debug\AutomationUITestingFram
 D:\Training\Phuoc\AutomationUITestingFramework\obj\Debug\AutomationUITestingFramework.csproj.CopyComplete
 D:\Training\Phuoc\AutomationUITestingFramework\obj\Debug\AutomationUITestingFramework.exe
 D:\Training\Phuoc\AutomationUITestingFramework\obj\Debug\AutomationUITestingFramework.pdb
+E:\NAB assignments\AutomationUITestingFramework\bin\Debug\AutomationUITestingFramework.dll.config
+E:\NAB assignments\AutomationUITestingFramework\bin\Debug\AutomationUITestingFramework.dll
+E:\NAB assignments\AutomationUITestingFramework\bin\Debug\AutomationUITestingFramework.pdb
+E:\NAB assignments\AutomationUITestingFramework\bin\Debug\WebDriver.dll
+E:\NAB assignments\AutomationUITestingFramework\obj\Debug\AutomationUITestingFramework.csprojAssemblyReference.cache
+E:\NAB assignments\AutomationUITestingFramework\obj\Debug\AutomationUITestingFramework.csproj.CoreCompileInputs.cache
+E:\NAB assignments\AutomationUITestingFramework\obj\Debug\AutomationUITestingFramework.csproj.CopyComplete
+E:\NAB assignments\AutomationUITestingFramework\obj\Debug\AutomationUITestingFramework.dll
+E:\NAB assignments\AutomationUITestingFramework\obj\Debug\AutomationUITestingFramework.pdb

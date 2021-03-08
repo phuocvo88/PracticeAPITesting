@@ -13,12 +13,6 @@ namespace OpenWeather.OpenWeather.UITest
     {
 
         
-        //public void Login()
-        //{
-
-        //}
-
-
         [Test]
         public void SearchValidCty()
         {
@@ -56,8 +50,8 @@ namespace OpenWeather.OpenWeather.UITest
             hPage.PressEnterOnSearchBox();
 
             //wait for page load
-
-            Assert.IsTrue(hPage.IsResultContainsInputCtName(kWord));
+           
+            Assert.IsTrue(hPage.IsResultShowNotFound());
 
         }
 

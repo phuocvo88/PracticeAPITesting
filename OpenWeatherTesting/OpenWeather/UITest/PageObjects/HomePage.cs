@@ -14,7 +14,8 @@ namespace OpenWeather.OpenWeather.UITest
 
         
         public By searchBox = By.XPath("//input[@id='q']");
-
+        public By forecastListTableResult = By.XPath("//*[@id='forecast_list_ul']//b/a");
+        public By forecastListWarningTxt = By.XPath("//*[@class='alert alert-warning']");
         #endregion
 
 
@@ -23,7 +24,7 @@ namespace OpenWeather.OpenWeather.UITest
 
         public void InputCtName(string ctName)
         {
-            Driver.FindElement(By.XPath("//input[@id='q']")).SendKeys(ctName);
+            Driver.FindElement(searchBox).SendKeys(ctName);
 
         }
 
@@ -38,15 +39,25 @@ namespace OpenWeather.OpenWeather.UITest
         }
         #endregion
 
+        public string GetNotFoundMessage()
+        {
+            string warn = GetTxt(forecastListWarningTxt).Substring(3);
+
+
+            return warn;
+        }
+       
 
         #region Page validation
 
         public bool IsResultContainsInputCtName(string inputCtName)
         {
-            Thread.Sleep(3000);
+            Thread.Sleep(1000);
             bool result = false;
             string input = inputCtName.ToLower();
-            var listCtNameResult = Driver.FindElements(By.XPath("//*[@id='forecast_list_ul']//b/a"));
+            var listCtNameResult = Driver.FindElements(forecastListTableResult);
+
+
 
             for (int i = 0; i < listCtNameResult.Count; i++)
             {
@@ -61,6 +72,20 @@ namespace OpenWeather.OpenWeather.UITest
             return result;
         }
 
+        public bool IsResultShowNotFound()
+        {
+            Thread.Sleep(1000);
+            bool result = false;
+            
+            string warnTxt = GetNotFoundMessage();
+            if (warnTxt.Equals("Not found"))
+            {
+                result = true;
+                
+            }
+
+            return result;
+        }
 
         #endregion
     }

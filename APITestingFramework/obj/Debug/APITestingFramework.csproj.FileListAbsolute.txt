@@ -4,3 +4,9 @@ D:\Training\Phuoc\APITestingFramework\bin\Debug\APITestingFramework.pdb
 D:\Training\Phuoc\APITestingFramework\obj\Debug\APITestingFramework.csproj.CoreCompileInputs.cache
 D:\Training\Phuoc\APITestingFramework\obj\Debug\APITestingFramework.exe
 D:\Training\Phuoc\APITestingFramework\obj\Debug\APITestingFramework.pdb
+E:\NAB assignments\APITestingFramework\bin\Debug\APITestingFramework.dll.config
+E:\NAB assignments\APITestingFramework\bin\Debug\APITestingFramework.dll
+E:\NAB assignments\APITestingFramework\bin\Debug\APITestingFramework.pdb
+E:\NAB assignments\APITestingFramework\obj\Debug\APITestingFramework.csproj.CoreCompileInputs.cache
+E:\NAB assignments\APITestingFramework\obj\Debug\APITestingFramework.dll
+E:\NAB assignments\APITestingFramework\obj\Debug\APITestingFramework.pdb
