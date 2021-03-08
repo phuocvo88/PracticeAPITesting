@@ -186,3 +186,7 @@ E:\NAB assignments\bin\Debug\System.Reflection.Metadata.xml
 E:\NAB assignments\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 E:\NAB assignments\bin\Debug\System.Text.Encodings.Web.xml
 E:\NAB assignments\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Training\Phuoc\PracticeAPITesting\obj\Debug\OpenWeatherAPI.csprojAssemblyReference.cache
+D:\Training\Phuoc\PracticeAPITesting\obj\Debug\OpenWeatherAPI.csproj.CoreCompileInputs.cache
+D:\Training\Phuoc\PracticeAPITesting\obj\Debug\OpenWeatherAPI.exe
+D:\Training\Phuoc\PracticeAPITesting\obj\Debug\OpenWeatherAPI.pdb

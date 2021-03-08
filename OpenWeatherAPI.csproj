@@ -456,8 +456,7 @@
   <ItemGroup>
     <Compile Include="ExtentReportUtils\ExtentReportUtils.cs" />
     <Compile Include="ExtentReportUtils\GetScreenShot.cs" />
-    <Compile Include="HttpUtils\HttpUtils.cs" />
-    <Compile Include="OpenWeather\CommonFunctions\CallCurrWthForOneLoc.cs" />
+    <Compile Include="OpenWeather\APITest\CommonFunctions\CallCurrWthForOneLoc.cs" />
     <Compile Include="OpenWeather\DataObject\WeatherResponse.cs" />
     <Compile Include="OpenWeather\UITest\BasePage.cs" />
     <Compile Include="OpenWeather\UITest\BaseTest.cs" />
@@ -465,7 +464,6 @@
     <Compile Include="OpenWeather\UITest\PageObjects\HomePage.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SeleniumFunctions\UIWebdriver.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -473,8 +471,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ErrorScreenshots\" />
-    <Folder Include="OpenWeather\APITest\" />
-    <Folder Include="OpenWeather\TestCases\" />
+    <Folder Include="OpenWeather\APITest\Testcases\" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
@@ -491,6 +488,12 @@
   <ItemGroup>
     <Analyzer Include="packages\Microsoft.CodeAnalysis.Analyzers.1.1.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.Analyzers.dll" />
     <Analyzer Include="packages\Microsoft.CodeAnalysis.Analyzers.1.1.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.CSharp.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\APITestingFramework\APITestingFramework.csproj">
+      <Project>{DBF2F2EF-6F3D-49EE-81A8-1CDC1063E49B}</Project>
+      <Name>APITestingFramework</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
