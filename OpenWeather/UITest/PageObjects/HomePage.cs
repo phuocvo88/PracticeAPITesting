@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace OpenWeatherAPI.OpenWeather.UITest
+namespace OpenWeather.OpenWeather.UITest
 {
     public  class HomePage : BasePage
     {

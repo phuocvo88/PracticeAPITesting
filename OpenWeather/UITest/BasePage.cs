@@ -6,7 +6,7 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Interactions;
 using OpenQA.Selenium.Support.UI;
-using OpenWeatherAPI.ExtentReportUtils;
+using OpenWeather.ExtentReportUtils;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -18,7 +18,7 @@ using System.Threading;
 using System.Threading.Tasks;
 
 
-namespace OpenWeatherAPI.OpenWeather.UITest
+namespace OpenWeather.OpenWeather.UITest
 {
     public  class  BasePage
     {

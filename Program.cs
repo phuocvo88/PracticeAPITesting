@@ -6,11 +6,9 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
-using OpenWeatherAPI.HttpUtils;
-using OpenWeatherAPI.OpenWeather.CommonFunctions;
-using OpenWeatherAPI.OpenWeather.DataObject;
+using OpenWeather.OpenWeather.DataObject;
 
-namespace OpenWeatherAPI
+namespace OpenWeather
 {
     class Program
     {
@@ -25,7 +23,7 @@ namespace OpenWeatherAPI
             queries.Add("q", "Ha Noi");
             queries.Add("appid", "2f45ec1571c6451311ed3c4b5937678b");
 
-            new HttpClientUtils().SendGetRequest(baseUrl, queries);
+            //new HttpClientUtils().SendGetRequest(baseUrl, queries);
             //OpenWeather.CommonFunctions.CallCurrWthForOneLoc func = new OpenWeather.CommonFunctions.CallCurrWthForOneLoc();
             //func.GetWthBy_CtName_StateCode(strUrl);
             //Console.WriteLine() ;

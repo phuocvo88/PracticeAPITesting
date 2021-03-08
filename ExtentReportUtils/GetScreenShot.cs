@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
  
-namespace OpenWeatherAPI.ExtentReportUtils
+namespace OpenWeather.ExtentReportUtils
 {
     public class GetScreenShot : OpenWeather.UITest.BasePage
     {

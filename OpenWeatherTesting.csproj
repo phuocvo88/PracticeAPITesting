@@ -456,7 +456,8 @@
   <ItemGroup>
     <Compile Include="ExtentReportUtils\ExtentReportUtils.cs" />
     <Compile Include="ExtentReportUtils\GetScreenShot.cs" />
-    <Compile Include="OpenWeather\APITest\CommonFunctions\CallCurrWthForOneLoc.cs" />
+    <Compile Include="OpenWeather\APITest\CommonFunctions\OpenWeatherAPIs.cs" />
+    <Compile Include="OpenWeather\APITest\Testcases\TestGetWeatherAPI.cs" />
     <Compile Include="OpenWeather\DataObject\WeatherResponse.cs" />
     <Compile Include="OpenWeather\UITest\BasePage.cs" />
     <Compile Include="OpenWeather\UITest\BaseTest.cs" />
@@ -471,7 +472,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ErrorScreenshots\" />
-    <Folder Include="OpenWeather\APITest\Testcases\" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
@@ -493,6 +493,10 @@
     <ProjectReference Include="..\APITestingFramework\APITestingFramework.csproj">
       <Project>{DBF2F2EF-6F3D-49EE-81A8-1CDC1063E49B}</Project>
       <Name>APITestingFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AutomationUITestingFramework\AutomationUITestingFramework.csproj">
+      <Project>{59c7a921-ad8c-455d-b1d4-94c89c1a5dad}</Project>
+      <Name>AutomationUITestingFramework</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

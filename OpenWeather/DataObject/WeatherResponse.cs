@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OpenWeatherAPI.OpenWeather.DataObject
+namespace OpenWeather.OpenWeather.DataObject
 {
     public class WeatherResponse
     {
