@@ -1,0 +1,6 @@
+D:\Training\Phuoc\APITestingFramework\bin\Debug\APITestingFramework.exe.config
+D:\Training\Phuoc\APITestingFramework\bin\Debug\APITestingFramework.exe
+D:\Training\Phuoc\APITestingFramework\bin\Debug\APITestingFramework.pdb
+D:\Training\Phuoc\APITestingFramework\obj\Debug\APITestingFramework.csproj.CoreCompileInputs.cache
+D:\Training\Phuoc\APITestingFramework\obj\Debug\APITestingFramework.exe
+D:\Training\Phuoc\APITestingFramework\obj\Debug\APITestingFramework.pdb

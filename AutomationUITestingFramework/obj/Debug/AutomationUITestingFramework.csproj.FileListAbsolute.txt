@@ -1,0 +1,10 @@
+D:\Training\Phuoc\AutomationUITestingFramework\bin\Debug\AutomationUITestingFramework.exe.config
+D:\Training\Phuoc\AutomationUITestingFramework\bin\Debug\AutomationUITestingFramework.exe
+D:\Training\Phuoc\AutomationUITestingFramework\bin\Debug\AutomationUITestingFramework.pdb
+D:\Training\Phuoc\AutomationUITestingFramework\bin\Debug\WebDriver.dll
+D:\Training\Phuoc\AutomationUITestingFramework\bin\Debug\WebDriver.xml
+D:\Training\Phuoc\AutomationUITestingFramework\obj\Debug\AutomationUITestingFramework.csprojAssemblyReference.cache
+D:\Training\Phuoc\AutomationUITestingFramework\obj\Debug\AutomationUITestingFramework.csproj.CoreCompileInputs.cache
+D:\Training\Phuoc\AutomationUITestingFramework\obj\Debug\AutomationUITestingFramework.csproj.CopyComplete
+D:\Training\Phuoc\AutomationUITestingFramework\obj\Debug\AutomationUITestingFramework.exe
+D:\Training\Phuoc\AutomationUITestingFramework\obj\Debug\AutomationUITestingFramework.pdb
