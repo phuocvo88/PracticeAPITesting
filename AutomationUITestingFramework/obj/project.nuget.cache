@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "sZm2W71UymynUvHiOGZRV43Ss+LuqSh0fPOjlvPXWaxcEPgun7bAqW3t4QhT3mp2LaKf0dMHxVaI1CjNVTHoLw==",
+  "success": true,
+  "projectFilePath": "D:\\Assignments\\AutomationUITestingFramework\\AutomationUITestingFramework.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\P.Minh\\.nuget\\packages\\selenium.webdriver\\3.141.0\\selenium.webdriver.3.141.0.nupkg.sha512"
+  ],
+  "logs": []
+}

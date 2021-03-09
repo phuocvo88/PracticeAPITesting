@@ -18,6 +18,9 @@ namespace OpenWeather.OpenWeather.DataObject
         public string name { get; set; }
         public int cod { get; set; }
         public MainAtt main { get; set; }
+        public string message { get; set; }
+        public Sys sys { get; set; }
+
 
 
 

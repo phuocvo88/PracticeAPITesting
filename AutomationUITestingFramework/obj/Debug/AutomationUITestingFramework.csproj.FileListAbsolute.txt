@@ -17,3 +17,11 @@ E:\NAB assignments\AutomationUITestingFramework\obj\Debug\AutomationUITestingFra
 E:\NAB assignments\AutomationUITestingFramework\obj\Debug\AutomationUITestingFramework.csproj.CopyComplete
 E:\NAB assignments\AutomationUITestingFramework\obj\Debug\AutomationUITestingFramework.dll
 E:\NAB assignments\AutomationUITestingFramework\obj\Debug\AutomationUITestingFramework.pdb
+D:\Assignments\AutomationUITestingFramework\bin\Debug\AutomationUITestingFramework.dll.config
+D:\Assignments\AutomationUITestingFramework\bin\Debug\AutomationUITestingFramework.dll
+D:\Assignments\AutomationUITestingFramework\bin\Debug\AutomationUITestingFramework.pdb
+D:\Assignments\AutomationUITestingFramework\bin\Debug\WebDriver.dll
+D:\Assignments\AutomationUITestingFramework\obj\Debug\AutomationUITestingFramework.csproj.CoreCompileInputs.cache
+D:\Assignments\AutomationUITestingFramework\obj\Debug\AutomationUITestingFramework.csproj.CopyComplete
+D:\Assignments\AutomationUITestingFramework\obj\Debug\AutomationUITestingFramework.dll
+D:\Assignments\AutomationUITestingFramework\obj\Debug\AutomationUITestingFramework.pdb

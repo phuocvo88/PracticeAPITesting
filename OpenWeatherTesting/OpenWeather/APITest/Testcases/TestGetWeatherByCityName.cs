@@ -2,7 +2,9 @@
 using System.Net;
 
 using OpenWeatherAPI.OpenWeather.APITest.CommonFunctions;
-
+using OpenWeather.OpenWeather.DataObject;
+using Newtonsoft.Json;
+using OpenWeatherAPI.OpenWeather.APITest.EndpointResources;
 
 namespace OpenWeatherAPI.OpenWeather.APITest.Testcases
 {
@@ -12,19 +14,48 @@ namespace OpenWeatherAPI.OpenWeather.APITest.Testcases
         [Test]
         public  void GetWeatherByCityName_Success()
         {
-            //These variables should be defined in test data file
-            string baseUrl = "http://api.openweathermap.org/data/2.5/weather";
-            string cityName = "Ha Noi";
-            string apiKey = "2f45ec1571c6451311ed3c4b5937678b";
+            EP_GetWthrByCityName eP_GetWthrByCityName = new EP_GetWthrByCityName();
 
-            HttpWebResponse response = OpenWeatherAPIs.GetWthBy_CtName(baseUrl, cityName, apiKey);
-            Assert.AreEqual(response.StatusCode, HttpStatusCode.OK);
-            //assert body contain...
+            string inputBaseUrl = eP_GetWthrByCityName.GetValidBaseUrlFromSource();
+            string inputCtName = eP_GetWthrByCityName.GetValidCtNameFromSource();
+            string inputApiKey = eP_GetWthrByCityName.GetValidApiKeyFromSource();
+
+            //Send request
+            HttpWebResponse httpResponse = OpenWeatherAPIs.Get_CtNameAndApiKey(inputBaseUrl, inputCtName, inputApiKey);
+            string response = new HttpUtils.HttpClientUtils().GetHttpResponseAsString(httpResponse);
+
+            //Convert response into weatherresposne object
+            WeatherResponse weathrResponse = JsonConvert.DeserializeObject<WeatherResponse>(response);
+            
+
+            string respCtName = weathrResponse.name;
+
+            Assert.AreEqual(httpResponse.StatusCode, HttpStatusCode.OK);
+            Assert.IsTrue(eP_GetWthrByCityName.IsResponseContainCtName(respCtName, inputCtName));
+           
         }
 
+        [Test]
         public void GetWeatherByCityName_InvalidCity()
         {
-            //
+            EP_GetWthrByCityName eP_GetWthrByCityName = new EP_GetWthrByCityName();
+
+            string inputBaseUrl = eP_GetWthrByCityName.GetValidBaseUrlFromSource();
+            string inputCtName = eP_GetWthrByCityName.GetInValidCtNameFromSource();
+            string inputApiKey = eP_GetWthrByCityName.GetValidApiKeyFromSource();
+
+            //Send request
+            HttpWebResponse httpResponse = OpenWeatherAPIs.Get_CtNameAndApiKey(inputBaseUrl, inputCtName, inputApiKey);
+            string response = new HttpUtils.HttpClientUtils().GetHttpResponseAsString(httpResponse);
+
+            //Convert response into weatherresposne object
+            WeatherResponse weathrResponse = JsonConvert.DeserializeObject<WeatherResponse>(response);
+
+
+            string respMessage = weathrResponse.message;
+
+            Assert.AreEqual(httpResponse.StatusCode, HttpStatusCode.NotFound);
+            Assert.IsTrue(eP_GetWthrByCityName.IsResponseShowMessageNotFound(respMessage));
         }
     }
 }

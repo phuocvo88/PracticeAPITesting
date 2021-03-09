@@ -85,28 +85,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ThieuNguyen\\.nuget\\packages\\": {}
+    "C:\\Users\\P.Minh\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Training\\Phuoc\\PracticeAPITesting\\AutomationUITestingFramework\\AutomationUITestingFramework.csproj",
+      "projectUniqueName": "D:\\Assignments\\AutomationUITestingFramework\\AutomationUITestingFramework.csproj",
       "projectName": "AutomationUITestingFramework",
-      "projectPath": "D:\\Training\\Phuoc\\PracticeAPITesting\\AutomationUITestingFramework\\AutomationUITestingFramework.csproj",
-      "packagesPath": "C:\\Users\\ThieuNguyen\\.nuget\\packages\\",
-      "outputPath": "D:\\Training\\Phuoc\\PracticeAPITesting\\AutomationUITestingFramework\\obj\\",
+      "projectPath": "D:\\Assignments\\AutomationUITestingFramework\\AutomationUITestingFramework.csproj",
+      "packagesPath": "C:\\Users\\P.Minh\\.nuget\\packages\\",
+      "outputPath": "D:\\Assignments\\AutomationUITestingFramework\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\ThieuNguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\P.Minh\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net472"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://www.nuget.org/api/v2/": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.catalystrisk.co.nz/nuget/": {}
       },
       "frameworks": {
         "net472": {

@@ -18,6 +18,18 @@ namespace HttpUtils
             return (HttpWebResponse)requestObjGet.GetResponse();
         }
 
+        public string GetHttpResponseAsString(HttpWebResponse httpWebResponse)
+        {
+            string response = "";
+            using (var streamReader = new StreamReader(httpWebResponse.GetResponseStream()))
+            {
+                response = streamReader.ReadToEnd();
+                Console.WriteLine("result: " + response);
+
+            }
+            return response;
+        }
+
         public HttpWebResponse SendGetRequest(string baseUrl, Dictionary<string, string> paras)
         {
             string requestUrl = baseUrl;
