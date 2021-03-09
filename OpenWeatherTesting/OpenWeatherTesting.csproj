@@ -460,7 +460,8 @@
     <Compile Include="ExtentReportUtils\ExtentReportUtils.cs" />
     <Compile Include="ExtentReportUtils\GetScreenShot.cs" />
     <Compile Include="OpenWeather\APITest\CommonFunctions\OpenWeatherAPIs.cs" />
-    <Compile Include="OpenWeather\APITest\Testcases\TestGetWeatherAPI.cs" />
+    <Compile Include="OpenWeather\APITest\CommonFunctions\Utils.cs" />
+    <Compile Include="OpenWeather\APITest\Testcases\TestGetWeatherByCityName.cs" />
     <Compile Include="OpenWeather\DataObject\WeatherResponse.cs" />
     <Compile Include="OpenWeather\UITest\BasePage.cs" />
     <Compile Include="OpenWeather\UITest\BaseTest.cs" />
