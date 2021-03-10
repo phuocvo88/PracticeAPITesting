@@ -25,3 +25,4 @@ D:\Assignments\AutomationUITestingFramework\obj\Debug\AutomationUITestingFramewo
 D:\Assignments\AutomationUITestingFramework\obj\Debug\AutomationUITestingFramework.csproj.CopyComplete
 D:\Assignments\AutomationUITestingFramework\obj\Debug\AutomationUITestingFramework.dll
 D:\Assignments\AutomationUITestingFramework\obj\Debug\AutomationUITestingFramework.pdb
+D:\Assignments\AutomationUITestingFramework\obj\Debug\AutomationUITestingFramework.csprojAssemblyReference.cache

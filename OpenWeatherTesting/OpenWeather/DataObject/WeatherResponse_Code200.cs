@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OpenWeather.OpenWeather.DataObject
 {
-    public class WeatherResponse
+    public class WeatherResponse_Code200
     {
         public Coord coord{ get; set; }
         public Weather[] weather{ get; set; }

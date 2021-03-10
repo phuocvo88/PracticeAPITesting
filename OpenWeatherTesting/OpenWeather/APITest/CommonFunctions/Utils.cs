@@ -12,10 +12,10 @@ namespace OpenWeatherAPI.OpenWeather.APITest.CommonFunctions
 {
     public static class Utils
     {
-        public static WeatherResponse GetWeatherResponse(HttpWebResponse httpResponse)
+        public static WeatherResponse_Code200 GetWeatherResponse(HttpWebResponse httpResponse)
         {
             string responseBody = new StreamReader(httpResponse.GetResponseStream()).ReadToEnd().Replace("base", "baseAtt");
-            return JsonConvert.DeserializeObject<WeatherResponse>(responseBody);
+            return JsonConvert.DeserializeObject<WeatherResponse_Code200>(responseBody);
         }
     }
 }

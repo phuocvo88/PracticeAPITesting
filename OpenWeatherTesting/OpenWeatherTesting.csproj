@@ -463,7 +463,8 @@
     <Compile Include="OpenWeather\APITest\CommonFunctions\Utils.cs" />
     <Compile Include="OpenWeather\APITest\EndpointResources\EP_GetWthrByCityName.cs" />
     <Compile Include="OpenWeather\APITest\Testcases\TestGetWeatherByCityName.cs" />
-    <Compile Include="OpenWeather\DataObject\WeatherResponse.cs" />
+    <Compile Include="OpenWeather\DataObject\WeatherResponse_Code200.cs" />
+    <Compile Include="OpenWeather\DataObject\WeatherResponse_Code404.cs" />
     <Compile Include="OpenWeather\UITest\BasePage.cs" />
     <Compile Include="OpenWeather\UITest\BaseTest.cs" />
     <Compile Include="OpenWeather\UITest\TestCases\HomePageTest.cs" />

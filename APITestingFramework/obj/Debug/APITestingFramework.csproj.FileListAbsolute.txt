@@ -16,4 +16,3 @@ D:\Assignments\APITestingFramework\bin\Debug\APITestingFramework.pdb
 D:\Assignments\APITestingFramework\obj\Debug\APITestingFramework.csproj.CoreCompileInputs.cache
 D:\Assignments\APITestingFramework\obj\Debug\APITestingFramework.dll
 D:\Assignments\APITestingFramework\obj\Debug\APITestingFramework.pdb
-D:\Assignments\APITestingFramework\obj\Debug\APITestingFramework.csprojAssemblyReference.cache
